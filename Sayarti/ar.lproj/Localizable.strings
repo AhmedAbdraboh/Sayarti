@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  Sayarti
+
+  Created by Admin on 5/18/17.
+  Copyright © 2017 Admin. All rights reserved.
+*/
+
+"signUpTitle" = "انشاء حساب جديد";
+
+"userType"="فئة المستخدم";
+"userA"="مستخدم آ";
+"userB"="مستخدم ب";
+"userC"="مستخدم ت";
+"egypt"="مصر";
+"saudi"="السعودية";
+
+"country"="الدولة";
+"city"="المدينة";
+
+"signUpSuccess"="تم التسجيل بنجاح";
+"ok"="موافق";
+"signUpfailure"="من فضلك ادخل بيانات صحيحة";
+"signUptitleAlert"="التسجيل";
+"cairo"="القاهرة";
+"alex"="الاسكندرية";
+"dumyat"="دمياط";
+"mansoura"="المنصورة";
+"geddah"="جدة";
+"riaddah"="الرياض";
+"mekkah"="مكة";
+
+"userName"="اسم المستخدم";
+"email"="البريد الالكتروني";
+"mobile"="الجوال";
+"password"="كلمة المرور";
+"confirmPassword"="تاكيد كلمة المرور";
+"agreeLabel"="اوافق علي الشروط و الاحكام";

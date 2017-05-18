@@ -1,0 +1,48 @@
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "20J-ux-o6x"; */
+"20J-ux-o6x.normalTitle" = "Continue";
+
+/* Class = "UITextField"; accessibilityHint = "UserName"; ObjectID = "6sb-iD-hyq"; */
+"6sb-iD-hyq.accessibilityHint" = "UserName";
+
+/* Class = "UITextField"; placeholder = "User Type "; ObjectID = "6sb-iD-hyq"; */
+"6sb-iD-hyq.placeholder" = "User Type ";
+
+/* Class = "UITextField"; accessibilityHint = "UserName"; ObjectID = "MfK-YL-fin"; */
+"MfK-YL-fin.accessibilityHint" = "UserName";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "MfK-YL-fin"; */
+"MfK-YL-fin.placeholder" = "Confirm Password";
+
+/* Class = "UITextField"; accessibilityHint = "UserName"; ObjectID = "PIC-e1-rcu"; */
+"PIC-e1-rcu.accessibilityHint" = "UserName";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "PIC-e1-rcu"; */
+"PIC-e1-rcu.placeholder" = "Mobile";
+
+/* Class = "UITextField"; accessibilityHint = "UserName"; ObjectID = "R2k-9I-J8o"; */
+"R2k-9I-J8o.accessibilityHint" = "UserName";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "R2k-9I-J8o"; */
+"R2k-9I-J8o.placeholder" = "City";
+
+/* Class = "UITextField"; accessibilityHint = "UserName"; ObjectID = "RTo-Vc-XdS"; */
+"RTo-Vc-XdS.accessibilityHint" = "UserName";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "RTo-Vc-XdS"; */
+"RTo-Vc-XdS.placeholder" = "User Name";
+
+
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "aVS-Hk-zed"; */
+"aVS-Hk-zed.placeholder" = "Country";
+
+
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "c2K-Hm-LQi"; */
+"c2K-Hm-LQi.placeholder" = "Email";
+
+
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "qCr-dB-G49"; */
+"qCr-dB-G49.placeholder" = "Password";

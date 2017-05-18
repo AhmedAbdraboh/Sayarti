@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185533A8C7D9DA049FC4D2DC /* libPods-Sayarti.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5B81BE4134CA38A70E7C50 /* libPods-Sayarti.a */; };
+		841498641ECB6650005308B0 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841498631ECB6650005308B0 /* SignUpViewController.m */; };
 		842E05EE1ECB5129008F4C2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E05ED1ECB5129008F4C2B /* main.m */; };
 		842E05F11ECB5129008F4C2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E05F01ECB5129008F4C2B /* AppDelegate.m */; };
-		842E05F41ECB5129008F4C2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E05F31ECB5129008F4C2B /* ViewController.m */; };
 		842E05F71ECB5129008F4C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842E05F51ECB5129008F4C2B /* Main.storyboard */; };
 		842E05F91ECB5129008F4C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842E05F81ECB5129008F4C2B /* Assets.xcassets */; };
 		842E05FC1ECB5129008F4C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842E05FA1ECB5129008F4C2B /* LaunchScreen.storyboard */; };
+		84AA779D1ECD77FE00B0B0ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AA779B1ECD77FE00B0B0ED /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B5B81BE4134CA38A70E7C50 /* libPods-Sayarti.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sayarti.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841498621ECB6650005308B0 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		841498631ECB6650005308B0 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		842DB20E1ECC411A00EBD4B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		842E05E91ECB5129008F4C2B /* Sayarti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sayarti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842E05ED1ECB5129008F4C2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		842E05EF1ECB5129008F4C2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		842E05F01ECB5129008F4C2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		842E05F21ECB5129008F4C2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		842E05F31ECB5129008F4C2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		842E05F61ECB5129008F4C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842E05F81ECB5129008F4C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842E05FB1ECB5129008F4C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842E05FD1ECB5129008F4C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AA779C1ECD77FE00B0B0ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Sayarti/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84AA779E1ECD79FC00B0B0ED /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		84AA779F1ECD79FD00B0B0ED /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84AA77A01ECD79FD00B0B0ED /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = Sayarti/ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C185F302BA71EF5AAA8A117 /* Pods-Sayarti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sayarti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sayarti/Pods-Sayarti.debug.xcconfig"; sourceTree = "<group>"; };
+		ACAD744DEAF6A5AB3F745716 /* Pods-Sayarti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sayarti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sayarti/Pods-Sayarti.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185533A8C7D9DA049FC4D2DC /* libPods-Sayarti.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262FE37D1D3043A7B3ACF47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5B81BE4134CA38A70E7C50 /* libPods-Sayarti.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841498611ECB65C7005308B0 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				841498621ECB6650005308B0 /* SignUpViewController.h */,
+				841498631ECB6650005308B0 /* SignUpViewController.m */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
 		842E05E01ECB5128008F4C2B = {
 			isa = PBXGroup;
 			children = (
+				84AA779B1ECD77FE00B0B0ED /* Localizable.strings */,
 				842E05EB1ECB5129008F4C2B /* Sayarti */,
 				842E05EA1ECB5129008F4C2B /* Products */,
+				A553998C8A20BB9D11FCB979 /* Pods */,
+				262FE37D1D3043A7B3ACF47C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				842E05EF1ECB5129008F4C2B /* AppDelegate.h */,
+				841498611ECB65C7005308B0 /* SignUp */,
 				842E05F01ECB5129008F4C2B /* AppDelegate.m */,
-				842E05F21ECB5129008F4C2B /* ViewController.h */,
-				842E05F31ECB5129008F4C2B /* ViewController.m */,
 				842E05F51ECB5129008F4C2B /* Main.storyboard */,
 				842E05F81ECB5129008F4C2B /* Assets.xcassets */,
 				842E05FA1ECB5129008F4C2B /* LaunchScreen.storyboard */,
@@ -79,6 +109,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A553998C8A20BB9D11FCB979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C185F302BA71EF5AAA8A117 /* Pods-Sayarti.debug.xcconfig */,
+				ACAD744DEAF6A5AB3F745716 /* Pods-Sayarti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842E06001ECB5129008F4C2B /* Build configuration list for PBXNativeTarget "Sayarti" */;
 			buildPhases = (
+				D2AAEC6211B693B7DB95BCF6 /* [CP] Check Pods Manifest.lock */,
 				842E05E51ECB5129008F4C2B /* Sources */,
 				842E05E61ECB5129008F4C2B /* Frameworks */,
 				842E05E71ECB5129008F4C2B /* Resources */,
+				0474729322DAD10759DFEEF2 /* [CP] Embed Pods Frameworks */,
+				90CB75C5DDEDCFAD3E517321 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,6 +163,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 842E05E01ECB5128008F4C2B;
 			productRefGroup = 842E05EA1ECB5129008F4C2B /* Products */;
@@ -138,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842E05FC1ECB5129008F4C2B /* LaunchScreen.storyboard in Resources */,
+				84AA779D1ECD77FE00B0B0ED /* Localizable.strings in Resources */,
 				842E05F91ECB5129008F4C2B /* Assets.xcassets in Resources */,
 				842E05F71ECB5129008F4C2B /* Main.storyboard in Resources */,
 			);
@@ -145,14 +189,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0474729322DAD10759DFEEF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sayarti/Pods-Sayarti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90CB75C5DDEDCFAD3E517321 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sayarti/Pods-Sayarti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AAEC6211B693B7DB95BCF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		842E05E51ECB5129008F4C2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842E05F41ECB5129008F4C2B /* ViewController.m in Sources */,
 				842E05F11ECB5129008F4C2B /* AppDelegate.m in Sources */,
 				842E05EE1ECB5129008F4C2B /* main.m in Sources */,
+				841498641ECB6650005308B0 /* SignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +255,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				842E05F61ECB5129008F4C2B /* Base */,
+				842DB20E1ECC411A00EBD4B2 /* en */,
+				84AA779E1ECD79FC00B0B0ED /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -171,8 +265,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				842E05FB1ECB5129008F4C2B /* Base */,
+				84AA779F1ECD79FD00B0B0ED /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84AA779B1ECD77FE00B0B0ED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA779C1ECD77FE00B0B0ED /* en */,
+				84AA77A01ECD79FD00B0B0ED /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -182,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -230,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -270,8 +376,10 @@
 		};
 		842E06011ECB5129008F4C2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C185F302BA71EF5AAA8A117 /* Pods-Sayarti.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
 				INFOPLIST_FILE = Sayarti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.Sayarti;
@@ -281,8 +389,10 @@
 		};
 		842E06021ECB5129008F4C2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAD744DEAF6A5AB3F745716 /* Pods-Sayarti.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
 				INFOPLIST_FILE = Sayarti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.Sayarti;
@@ -309,6 +419,7 @@
 				842E06021ECB5129008F4C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

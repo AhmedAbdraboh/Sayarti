@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Sayarti
+
+  Created by Admin on 5/18/17.
+  Copyright © 2017 Admin. All rights reserved.
+*/
+
+"signUpTitle" = "Create A New Account";
+
+
+"userA"="User A";
+"userB"="User B";
+"userC"="User C";
+"egypt"="Egypt";
+"saudi"="Saudi Arabia";
+
+"country"="Country";
+"city"="City";
+
+"signUpSuccess"="You have successfully signed Up";
+"ok"="Ok";
+"signUpfailure"="Please Enter Valid Details";
+"signUptitleAlert"="Sign Up";
+"cairo"="Cairo";
+"alex"="Alex";
+"dumyat"="Dumyat";
+"mansoura"="Mansoura";
+"geddah"="Geddah";
+"riaddah"="Riaddah";
+"mekkah"="Mekkah";
+
+
