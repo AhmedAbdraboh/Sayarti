@@ -134,7 +134,7 @@
     BOOL cityUserInput=![city isEqualToString:@""];
     BOOL passwordUserInput=[self isValidPassword:password against:confirmPassword];
     
-    if ( userTypeUserInput && userNameUserInput && emailUserInput && mobileUserInput && countryUserInput && cityUserInput && passwordUserInput ) {
+    if ( userTypeUserInput && userNameUserInput && emailUserInput && mobileUserInput && countryUserInput && cityUserInput && passwordUserInput && checkTerms) {
         alertMessage =NSLocalizedString(@"signUpSuccess", @"A title for the sign up success method");
         okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"ok", @"A title for the ok title") style:UIAlertActionStyleDefault handler:nil];
     
