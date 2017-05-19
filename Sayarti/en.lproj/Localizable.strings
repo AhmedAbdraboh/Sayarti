@@ -7,7 +7,7 @@
 */
 
 "signUpTitle" = "Create A New Account";
-
+"agreeLabel"="Agree to Terms and Conditions";
 
 "userA"="User A";
 "userB"="User B";
@@ -20,7 +20,16 @@
 
 "signUpSuccess"="You have successfully signed Up";
 "ok"="Ok";
-"signUpfailure"="Please Enter Valid Details";
+"signUpfailurePassword"="Please Make Sure Password is entered correctly and more than 6 characters ";
+"signUpfailureCheckTerms"="You must agree to Terms and Conditions";
+"signUpfailureCity"="Please choose a Valid City";
+"signUpfailureCountry"="Please choose a Valid Country";
+"signUpfailureMobile"="Please Enter a Valid Mobile Number";
+"signUpfailureEmail"="Please Enter a Valid Email";
+"signUpfailureUserName"="Please Enter a Valid User Name";
+"signUpfailureUserType"="Please Enter a Valid User Type";
+
+
 "signUptitleAlert"="Sign Up";
 "cairo"="Cairo";
 "alex"="Alex";

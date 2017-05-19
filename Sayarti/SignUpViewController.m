@@ -139,7 +139,31 @@
         okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"ok", @"A title for the ok title") style:UIAlertActionStyleDefault handler:nil];
     
     }else{
-        alertMessage =NSLocalizedString(@"signUpfailure", @"A title for the sign up failure method");
+        if(!checkTerms){
+            alertMessage =NSLocalizedString(@"signUpfailureCheckTerms", @"A title for the sign up failure method due to CheckTerms");
+        }
+        if (!passwordUserInput) {
+            alertMessage =NSLocalizedString(@"signUpfailurePassword", @"A title for the sign up failure method due to password");
+        }
+        if (!cityUserInput){
+            alertMessage =NSLocalizedString(@"signUpfailureCity", @"A title for the sign up failure method due to city");
+        }
+        if (!countryUserInput){
+            alertMessage =NSLocalizedString(@"signUpfailureCountry", @"A title for the sign up failure method due to country");
+        }
+        if (!mobileUserInput){
+            alertMessage =NSLocalizedString(@"signUpfailureMobile", @"A title for the sign up failure method due to mobile");
+        }
+        if (!emailUserInput){
+            alertMessage =NSLocalizedString(@"signUpfailureEmail", @"A title for the sign up failure method due to email");
+        }
+        if (!userNameUserInput){
+            alertMessage =NSLocalizedString(@"signUpfailureUserName", @"A title for the sign up failure method due to User Name");
+        }
+        if (!userTypeUserInput){
+            alertMessage =NSLocalizedString(@"signUpfailureUserType", @"A title for the sign up failure method due to User Type");
+        }
+        
         okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"ok", @"A title for the ok title") style:UIAlertActionStyleDefault handler:nil];
     }
     UIAlertController *signUpAlert = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"signUptitleAlert", @"A title for the signUptitleAlert") message:alertMessage preferredStyle:UIAlertControllerStyleAlert];
@@ -168,7 +192,7 @@
 //method for password confirmation
 - (BOOL)isValidPassword:(NSString*)password against:(NSString*)confirmPassword{
     BOOL passwordValid = [password isEqualToString:confirmPassword];
-    if (passwordValid) {
+    if (passwordValid && password.length>=6) {
         return true;
     }
     return false;
